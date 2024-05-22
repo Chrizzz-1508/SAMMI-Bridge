@@ -34,6 +34,7 @@ obj.top_vote_list = topVotesSorted;
       choiceInfoTokens.bits = allowBits ? choiceInfoVotes.bits * 5 : 0;
       choiceInfoTokens.channel_points = allowPoints ? choiceInfoVotes.channel_points * 10 : 0;
       // add up all the base, bits and channel points botes
+      //obj.vote_total_base += choiceInfoVotes.base;
       obj.vote_total_base += choiceInfoVotes.base;
       obj.vote_total_bits += choiceInfoVotes.bits;
       obj.vote_total_points += choiceInfoVotes.channel_points;
